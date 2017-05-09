@@ -1,0 +1,186 @@
+bootstrap can have themes, take a look at the themes at bootswatch.com
+
+One of the main difference in bootstrap2 and 3 is 3 has grid system introduced.
+Its a Mobile first Responsive web design strategy.
+
+
+Bootstrap screen is always uses 12 columns grid,
+
+col-lg-xx - class used for large screen like desktop (>1200 pixels)
+col-md-xx - class used for medium screen like horizontal tablet (>= 992 pixels)
+col-sm-xx - class used for small screen size like verticle tablet(>=768 pixels)
+col-xs-xx - class used for extra small screen like phone screen (<768 pixels)
+
+We can mention all of them if we want the page being accessible on all the screen sizes,
+
+col-lg-offset-xx - xx mentions the columns to offset
+col-md-offset-xx
+col-sm-offset-xx
+col-xs-offset-xx
+
+We can use all these at the same like above,
+
+pull-right / pull-left : classes will pull the image right/left and if there is any text in the same element then the text will wrap around the image,
+
+img-thumbnail : this class will resize the image as screen size changes and additionally it will put a padding arouund the image to make more appealing style,
+
+hidden-lg - these classes are used on images elements to select if the image should be hidden on particular screen. This is used because we don't want those images to shown in a not so pleasing way on teh screen which is not suitable for that iamge size and type.
+hidden-md
+hidden-sm
+hidden-xs
+
+similarly
+visible-lg - these classes are used on images to show that image(s) on a particular screen size only as opposed to hidden-xx
+visible-md
+visible-sm
+visible-xs
+
+Typography
+lead - class to emphasis the etxt
+text-muted
+text-primary
+text-success
+text-warning
+
+Buttons classes are available
+btn-primary
+btn-warning
+btn-muted
+btn-success
+
+btn-lg - classes for button size
+btn-sm
+btn-md
+btn-xs
+
+icons classes
+glyphicons are default provided with bootstrap 3.
+Please refer http://getbootstrap.com/components/#glyphicons for further reference
+to use glyphicons below is syntax
+<button><span class="glyphicon glyphicon-menu-hamburger"></span></button> - putting in span is imp
+
+Nav and nav bars
+nav navbar-nav
+nav navbar-nav navbar-right/left
+nav active
+nav-pills
+navbar-collapse collapse
+navbar-toggle
+data-toggle
+data-target
+nav-tabs
+
+
+
+List Classes
+list-unstyled
+list-inline
+list-group
+list-group-item
+
+
+Table classes
+table
+table-striped
+table-bordered
+table-hovered
+table-condensed
+table-responsive
+
+
+forms
+Types: 
+normal verticle form, 
+inline for auto format
+horizontal: for horizontal orientation
+
+
+Page Header classes
+page-header
+breadcrumb
+
+dropdown
+dropdown-menu
+disabled
+divider
+caret
+
+
+input-group
+input-group
+
+pagination classes
+pager
+previous
+next
+pagination
+pagination-lg
+pagination-md
+pagination-sm
+pagination-xs
+disabled
+active
+
+
+Thumbnails classes
+img-responsive
+thumbnail
+
+Panels classes
+panel
+panel-body
+panel-heading
+panel-default
+panel-title
+panel-footer
+panel-info
+panel-primary
+
+
+Wells Classes
+well
+well-sm
+well-lg
+well-md
+well-xs
+lead
+
+
+form-group
+name-input
+form-control
+placeholder //for predefined text in text(can be changed)
+email-input
+
+Collase Classes
+collapse
+in
+panel-collapse
+
+accordian classes
+accordian
+
+Modal classes
+modal fade
+modal-dialog
+modal-content
+modal-header
+modal-body
+modal-footer
+modal
+
+Tab classes
+nav-tabs
+tab-pane
+tab-content
+
+
+carousel classes
+carousel-slide
+carousel-inner
+carousel-item
+carousel-indicators
+carousel-control
+carousel-caption
+
+
